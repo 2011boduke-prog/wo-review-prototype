@@ -1,0 +1,17 @@
+{
+  "searchPlaceholder": "Search work orders by WO, asset, or text",
+  "filters": {
+    "asset": "",
+    "wo": "",
+    "limit": 25
+  },
+  "resultFields": ["wo", "asset", "priority", "status", "technician"],
+  "editorSections": [
+    "raw_text",
+    "extracted.parts",
+    "extracted.measurements",
+    "extracted.actions",
+    "extracted.failure_codes",
+    "extracted.special_instructions"
+  ]
+}

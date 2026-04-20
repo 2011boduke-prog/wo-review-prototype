@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: FastAPI Backend",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["backend.api:app", "--reload", "--port", "8000"],
+      "jinja": true,
+      "justMyCode": true,
+      "env": { "PYTHONPATH": "${workspaceFolder}" }
+    },
+    {
+      "name": "Python: Ingest Data",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/ingest_load.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: NLP Pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/nlp/ner_pipeline.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

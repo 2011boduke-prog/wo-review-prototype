@@ -1,0 +1,68 @@
+[
+  {
+    "wo": "WO-1001",
+    "asset": "PUMP-A12",
+    "location": "Building 3, Level 2",
+    "priority": "High",
+    "status": "Open",
+    "created_date": "2026-04-01T08:30:00Z",
+    "description": "Replace worn impeller on centrifugal pump. Part no. IMP-7742-SS required. Torque bolts to 45 Nm. Check seal clearance <= 0.15 mm. Failure code: FC-WEAR-01.",
+    "technician": "J. Smith",
+    "raw_text": "Replace worn impeller on centrifugal pump. Part no. IMP-7742-SS required. Torque bolts to 45 Nm. Check seal clearance <= 0.15 mm. Failure code: FC-WEAR-01."
+  },
+  {
+    "wo": "WO-1002",
+    "asset": "HVAC-B07",
+    "location": "Building 1, Rooftop",
+    "priority": "Medium",
+    "status": "In Progress",
+    "created_date": "2026-04-02T09:15:00Z",
+    "description": "Inspect and clean condenser coils. Replace filter element FLT-2210-20x25 if pressure drop exceeds 0.5 inH2O. Lubricate fan bearings with SAE-30 oil. Failure code: FC-MAINT-02.",
+    "technician": "A. Patel",
+    "raw_text": "Inspect and clean condenser coils. Replace filter element FLT-2210-20x25 if pressure drop exceeds 0.5 inH2O. Lubricate fan bearings with SAE-30 oil. Failure code: FC-MAINT-02."
+  },
+  {
+    "wo": "WO-1003",
+    "asset": "COMP-C03",
+    "location": "Compressor Room",
+    "priority": "Critical",
+    "status": "Open",
+    "created_date": "2026-04-03T06:45:00Z",
+    "description": "Emergency shutdown due to abnormal vibration. Check coupling alignment within 0.05 mm tolerance. Replace drive belt BLT-V-B64 and tensioner spring SPR-T-12. Failure code: FC-VIB-03. CAUTION: Lockout/tagout required before work.",
+    "technician": "R. Garcia",
+    "raw_text": "Emergency shutdown due to abnormal vibration. Check coupling alignment within 0.05 mm tolerance. Replace drive belt BLT-V-B64 and tensioner spring SPR-T-12. Failure code: FC-VIB-03. CAUTION: Lockout/tagout required before work."
+  },
+  {
+    "wo": "WO-1004",
+    "asset": "BOIL-D01",
+    "location": "Utility Room A",
+    "priority": "High",
+    "status": "Completed",
+    "created_date": "2026-04-05T11:00:00Z",
+    "description": "Annual boiler inspection. Replaced burner nozzle NZL-B-0025 and combustion sensor SEN-CO2-44. Verified operating pressure at 120 PSI. Water treatment chemical dose: 250 ml per 1000L. Failure code: FC-SCHED-04.",
+    "technician": "T. Johnson",
+    "raw_text": "Annual boiler inspection. Replaced burner nozzle NZL-B-0025 and combustion sensor SEN-CO2-44. Verified operating pressure at 120 PSI. Water treatment chemical dose: 250 ml per 1000L. Failure code: FC-SCHED-04."
+  },
+  {
+    "wo": "WO-1005",
+    "asset": "ELEC-E09",
+    "location": "Substation East",
+    "priority": "Medium",
+    "status": "Open",
+    "created_date": "2026-04-10T14:20:00Z",
+    "description": "Thermal scan identified hot spot on breaker CB-480-3P. Replace breaker unit BRK-480-3P-100A. Tighten bus bar connections to 40 ft-lbs. Failure code: FC-ELEC-05. NOTE: Coordinate with operations before de-energizing.",
+    "technician": "S. Lee",
+    "raw_text": "Thermal scan identified hot spot on breaker CB-480-3P. Replace breaker unit BRK-480-3P-100A. Tighten bus bar connections to 40 ft-lbs. Failure code: FC-ELEC-05. NOTE: Coordinate with operations before de-energizing."
+  },
+  {
+    "wo": "WO-1006",
+    "asset": "CONV-F15",
+    "location": "Assembly Line 2",
+    "priority": "Low",
+    "status": "Pending",
+    "created_date": "2026-04-12T16:00:00Z",
+    "description": "Lubricate conveyor chain every 500 operating hours using grease GRS-LIT-EP2. Check chain tension 10-15 mm sag. Replace guide rail segment GRL-50-2M if wear depth exceeds 3 mm. Failure code: FC-MAINT-06.",
+    "technician": "M. Williams",
+    "raw_text": "Lubricate conveyor chain every 500 operating hours using grease GRS-LIT-EP2. Check chain tension 10-15 mm sag. Replace guide rail segment GRL-50-2M if wear depth exceeds 3 mm. Failure code: FC-MAINT-06."
+  }
+]

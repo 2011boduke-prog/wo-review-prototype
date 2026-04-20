@@ -1,0 +1,72 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create venv",
+      "type": "shell",
+      "command": "python -m venv .venv",
+      "group": "build",
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Install Python deps",
+      "type": "shell",
+      "command": ".venv/Scripts/pip install -r backend/requirements.txt",
+      "windows": {
+        "command": ".venv\\Scripts\\pip.exe install -r backend\\requirements.txt"
+      },
+      "group": "build",
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Download spaCy model",
+      "type": "shell",
+      "command": ".venv/Scripts/python -m spacy download en_core_web_sm",
+      "windows": {
+        "command": ".venv\\Scripts\\python.exe -m spacy download en_core_web_sm"
+      },
+      "group": "build",
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Ingest data",
+      "type": "shell",
+      "command": ".venv/Scripts/python backend/ingest_load.py",
+      "windows": {
+        "command": ".venv\\Scripts\\python.exe backend\\ingest_load.py"
+      },
+      "group": "build",
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Run NLP pipeline",
+      "type": "shell",
+      "command": ".venv/Scripts/python nlp/ner_pipeline.py",
+      "windows": {
+        "command": ".venv\\Scripts\\python.exe nlp\\ner_pipeline.py"
+      },
+      "group": "build",
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Run Backend",
+      "type": "shell",
+      "command": ".venv/Scripts/uvicorn backend.api:app --reload",
+      "windows": {
+        "command": ".venv\\Scripts\\uvicorn.exe backend.api:app --reload"
+      },
+      "isBackground": true,
+      "group": "test",
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Run Frontend",
+      "type": "shell",
+      "command": "cd ui && npm start",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "group": "test",
+      "presentation": { "reveal": "always" }
+    }
+  ]
+}
