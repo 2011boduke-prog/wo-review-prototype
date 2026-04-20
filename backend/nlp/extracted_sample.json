@@ -1,0 +1,368 @@
+[
+  {
+    "wo": "WO-1001",
+    "raw_text": "Replace worn impeller on centrifugal pump. Part no. IMP-7742-SS required. Torque bolts to 45 Nm. Check seal clearance <= 0.15 mm. Failure code: FC-WEAR-01.",
+    "extracted": {
+      "parts": [
+        {
+          "value": "IMP-7742-SS",
+          "confidence": "medium"
+        },
+        {
+          "value": "FC-WEAR-01",
+          "confidence": "medium"
+        }
+      ],
+      "measurements": [
+        {
+          "value": "45",
+          "unit": "Nm",
+          "confidence": "medium"
+        },
+        {
+          "value": "0.15",
+          "unit": "mm",
+          "confidence": "medium"
+        }
+      ],
+      "failure_codes": [
+        {
+          "value": "FC-WEAR-01",
+          "confidence": "high"
+        }
+      ],
+      "actions": [
+        {
+          "value": "replace",
+          "confidence": "low"
+        }
+      ],
+      "special_instructions": [],
+      "spacy_entities": [
+        {
+          "text": "45",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "0.15 mm",
+          "label": "QUANTITY"
+        }
+      ]
+    }
+  },
+  {
+    "wo": "WO-1002",
+    "raw_text": "Inspect and clean condenser coils. Replace filter element FLT-2210-20x25 if pressure drop exceeds 0.5 inH2O. Lubricate fan bearings with SAE-30 oil. Failure code: FC-MAINT-02.",
+    "extracted": {
+      "parts": [
+        {
+          "value": "FC-MAINT-02",
+          "confidence": "medium"
+        }
+      ],
+      "measurements": [
+        {
+          "value": "0.5",
+          "unit": "inH2O",
+          "confidence": "medium"
+        }
+      ],
+      "failure_codes": [
+        {
+          "value": "FC-MAINT-02",
+          "confidence": "high"
+        }
+      ],
+      "actions": [
+        {
+          "value": "inspect",
+          "confidence": "low"
+        },
+        {
+          "value": "replace",
+          "confidence": "low"
+        }
+      ],
+      "special_instructions": [],
+      "spacy_entities": [
+        {
+          "text": "FLT-2210-20x25",
+          "label": "ORG"
+        },
+        {
+          "text": "0.5",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "inH2O. Lubricate",
+          "label": "PERSON"
+        },
+        {
+          "text": "FC-MAINT-02",
+          "label": "ORG"
+        }
+      ]
+    }
+  },
+  {
+    "wo": "WO-1003",
+    "raw_text": "Emergency shutdown due to abnormal vibration. Check coupling alignment within 0.05 mm tolerance. Replace drive belt BLT-V-B64 and tensioner spring SPR-T-12. Failure code: FC-VIB-03. CAUTION: Lockout/tagout required before work.",
+    "extracted": {
+      "parts": [
+        {
+          "value": "BLT-V-B64",
+          "confidence": "medium"
+        },
+        {
+          "value": "SPR-T-12",
+          "confidence": "medium"
+        },
+        {
+          "value": "FC-VIB-03",
+          "confidence": "medium"
+        }
+      ],
+      "measurements": [
+        {
+          "value": "0.05",
+          "unit": "mm",
+          "confidence": "medium"
+        }
+      ],
+      "failure_codes": [
+        {
+          "value": "FC-VIB-03",
+          "confidence": "high"
+        }
+      ],
+      "actions": [
+        {
+          "value": "check",
+          "confidence": "low"
+        },
+        {
+          "value": "replace",
+          "confidence": "low"
+        }
+      ],
+      "special_instructions": [
+        {
+          "value": "CAUTION: Lockout/tagout required before work.",
+          "confidence": "high"
+        }
+      ],
+      "spacy_entities": [
+        {
+          "text": "0.05 mm",
+          "label": "QUANTITY"
+        },
+        {
+          "text": "BLT",
+          "label": "PERSON"
+        },
+        {
+          "text": "SPR-T-12",
+          "label": "ORG"
+        }
+      ]
+    }
+  },
+  {
+    "wo": "WO-1004",
+    "raw_text": "Annual boiler inspection. Replaced burner nozzle NZL-B-0025 and combustion sensor SEN-CO2-44. Verified operating pressure at 120 PSI. Water treatment chemical dose: 250 ml per 1000L. Failure code: FC-SCHED-04.",
+    "extracted": {
+      "parts": [
+        {
+          "value": "NZL-B-0025",
+          "confidence": "medium"
+        },
+        {
+          "value": "SEN-CO2-44",
+          "confidence": "medium"
+        },
+        {
+          "value": "FC-SCHED-04",
+          "confidence": "medium"
+        }
+      ],
+      "measurements": [
+        {
+          "value": "120",
+          "unit": "PSI",
+          "confidence": "medium"
+        },
+        {
+          "value": "250",
+          "unit": "ml",
+          "confidence": "medium"
+        },
+        {
+          "value": "1000",
+          "unit": "L",
+          "confidence": "medium"
+        }
+      ],
+      "failure_codes": [
+        {
+          "value": "FC-SCHED-04",
+          "confidence": "high"
+        }
+      ],
+      "actions": [
+        {
+          "value": "replaced",
+          "confidence": "low"
+        },
+        {
+          "value": "verified",
+          "confidence": "low"
+        }
+      ],
+      "special_instructions": [],
+      "spacy_entities": [
+        {
+          "text": "Annual",
+          "label": "DATE"
+        },
+        {
+          "text": "NZL-B-0025",
+          "label": "ORG"
+        },
+        {
+          "text": "SEN-CO2-44",
+          "label": "ORG"
+        },
+        {
+          "text": "120",
+          "label": "CARDINAL"
+        },
+        {
+          "text": "250 ml",
+          "label": "QUANTITY"
+        },
+        {
+          "text": "FC-SCHED-04",
+          "label": "ORG"
+        }
+      ]
+    }
+  },
+  {
+    "wo": "WO-1005",
+    "raw_text": "Thermal scan identified hot spot on breaker CB-480-3P. Replace breaker unit BRK-480-3P-100A. Tighten bus bar connections to 40 ft-lbs. Failure code: FC-ELEC-05. NOTE: Coordinate with operations before de-energizing.",
+    "extracted": {
+      "parts": [
+        {
+          "value": "CB-480-3P",
+          "confidence": "medium"
+        },
+        {
+          "value": "BRK-480-3P-100A",
+          "confidence": "medium"
+        },
+        {
+          "value": "FC-ELEC-05",
+          "confidence": "medium"
+        }
+      ],
+      "measurements": [
+        {
+          "value": "40",
+          "unit": "ft",
+          "confidence": "medium"
+        }
+      ],
+      "failure_codes": [
+        {
+          "value": "FC-ELEC-05",
+          "confidence": "high"
+        }
+      ],
+      "actions": [],
+      "special_instructions": [
+        {
+          "value": "NOTE: Coordinate with operations before de-energizing.",
+          "confidence": "high"
+        }
+      ],
+      "spacy_entities": [
+        {
+          "text": "BRK-480-3P-100A. Tighten",
+          "label": "PERSON"
+        },
+        {
+          "text": "40",
+          "label": "CARDINAL"
+        }
+      ]
+    }
+  },
+  {
+    "wo": "WO-1006",
+    "raw_text": "Lubricate conveyor chain every 500 operating hours using grease GRS-LIT-EP2. Check chain tension 10-15 mm sag. Replace guide rail segment GRL-50-2M if wear depth exceeds 3 mm. Failure code: FC-MAINT-06.",
+    "extracted": {
+      "parts": [
+        {
+          "value": "GRS-LIT-EP2",
+          "confidence": "medium"
+        },
+        {
+          "value": "GRL-50-2M",
+          "confidence": "medium"
+        },
+        {
+          "value": "FC-MAINT-06",
+          "confidence": "medium"
+        }
+      ],
+      "measurements": [
+        {
+          "value": "15",
+          "unit": "mm",
+          "confidence": "medium"
+        },
+        {
+          "value": "2",
+          "unit": "M",
+          "confidence": "medium"
+        },
+        {
+          "value": "3",
+          "unit": "mm",
+          "confidence": "medium"
+        }
+      ],
+      "failure_codes": [
+        {
+          "value": "FC-MAINT-06",
+          "confidence": "high"
+        }
+      ],
+      "actions": [
+        {
+          "value": "check",
+          "confidence": "low"
+        },
+        {
+          "value": "lubricate",
+          "confidence": "low"
+        },
+        {
+          "value": "replace",
+          "confidence": "low"
+        }
+      ],
+      "special_instructions": [],
+      "spacy_entities": [
+        {
+          "text": "10-15",
+          "label": "TIME"
+        },
+        {
+          "text": "3 mm",
+          "label": "QUANTITY"
+        }
+      ]
+    }
+  }
+]
